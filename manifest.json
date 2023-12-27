@@ -14,9 +14,9 @@
     "https://news.ycombinator.com/*"
   ],
   "icons": {
-    "16": "images/hn-icon.png",
-    "48": "images/hn-icon.png",
-    "128": "images/hn-icon.png"
+    "16": "images/hackersplitt.png",
+    "48": "images/hackersplitt.png",
+    "128": "images/hackersplitt.png"
   },
   "content_scripts": [{
     "matches": ["https://news.ycombinator.com/*"],
