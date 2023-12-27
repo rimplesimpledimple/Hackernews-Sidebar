@@ -1,0 +1,26 @@
+{
+  "name": "HackerSplit",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Enhance your HackerNews experience by browsing and interacting with posts seamlessly in a dedicated sidebar, freeing you to explore comments and engage in discussions on the main page simultaneously.",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Click to open panel"
+  },
+  "permissions": ["sidePanel"],
+  "host_permissions": [
+    "https://news.ycombinator.com/*"
+  ],
+  "icons": {
+    "16": "images/hn-icon.png",
+    "48": "images/hn-icon.png",
+    "128": "images/hn-icon.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://news.ycombinator.com/*"],
+    "js": ["contentScripts.js"],
+    "all_frames": true
+  }]
+}
