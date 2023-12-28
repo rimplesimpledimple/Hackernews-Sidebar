@@ -1,8 +1,8 @@
 {
-  "name": "HackerSplit",
+  "name": "Hackernews Sidebar",
   "version": "1.0",
   "manifest_version": 3,
-  "description": "Enhance your HackerNews experience by browsing and interacting with posts seamlessly in a dedicated sidebar, freeing you to explore comments and engage in discussions on the main page simultaneously.",
+  "description": "Browse and interact with HackerNews posts in a sidebar; easily explore comments and engage in discussions without tab-switching..",
   "background": {
     "service_worker": "service-worker.js"
   },
